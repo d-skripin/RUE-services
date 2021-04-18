@@ -1,0 +1,39 @@
+
+@media (min-width: 320px) {
+  header, nav, section, footer, button {
+    font-family: "Formular", sans-serif;
+    line-height: 120%;
+  }
+
+
+  section {
+    padding: 0px 15px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+
+  section {
+    padding: 0px 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  section {
+    padding: 0px 40px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  section {
+    padding: 0px 150px;
+    margin-bottom: 80px;
+  }
+}
