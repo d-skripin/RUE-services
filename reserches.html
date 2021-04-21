@@ -9,7 +9,10 @@
   <body>
     <header>
       <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-      <a href="#">Контакты</a>
+      <div class="call_header">
+      <a href="#footer"><img src="img/call_icon.png" alt="call" 
+        style="max-width: 15px;"> Контакты</a>
+    </div>
     </header>
 
     <nav>
@@ -22,7 +25,7 @@
     </nav>
 
     <section class="main-title">
-      <img src="img/campus.png" alt="campus">
+      <img src="img/campus.png" alt="research">
       <h1>Исследования, экспертиза, консалтинг</h1>
       <p>Проведение исследований на&nbsp;базе лидирующего экономического вуза страны. Консалтинг и&nbsp;экспертиза с&nbsp;привлечением ведущих экспертов-практиков и&nbsp;ученых</p>
       <p>В&nbsp;нашем портфеле исследования транспортного комплекса Москвы, экспертиза экономики промышленности регионов, разработка и&nbsp;тестирование новых экологичных материалов и&nbsp;другие проекты для государственных учреждений и&nbsp;бизнеса.</p>
@@ -32,39 +35,52 @@
     <section class="action-section">
       <h2>Научные исследования</h2>
       <div class="action-flex-container">
-        <div class="action-container large">
-          <div class="deep-link-text">
-            <h3>Общественные</h3>
-            <p>Экономика, финансы, управление рисками, социология, менеджмент, образование, статистика, таможенное дело, товарный менеджмент, реклама.</p>
-          </div>
-          <img src="img/link-arrow.svg" alt="arrow">
-        </div>
 
+        <a href="#">
           <div class="action-container large">
+            <div class="deep-link-text">
+              <h3>Общественные</h3>
+              <p>Экономика, финансы, управление рисками, социология, менеджмент, образование, статистика, таможенное дело, товарный менеджмент, реклама.</p>
+            </div>
+              <img src="img/link-arrow.svg" alt="arrow">
+            </div>
+        </a>
+
+          <a href="#"><div class="action-container large">
             <div class="deep-link-text">
               <h3>Гуманитарные</h3>
               <p>История, философия, психология, физическая культура, политология, иностранные языки, юриспруденция.</p>
             </div>
-            <img src="img/link-arrow.svg" alt="arrow">
-          </div>
+              <img src="img/link-arrow.svg" alt="arrow">
+            </div>
+          </a>
 
-          <div class="action-container large">
+          <a href="#"><div class="action-container large">
             <div class="deep-link-text">
               <h3>Технические</h3>
               <p>Информатика, кибернетика, искусственный интеллект, большие данные.</p>
             </div>
-            <img src="img/link-arrow.svg" alt="arrow">
-          </div>
+              <img src="img/link-arrow.svg" alt="arrow">
+            </div>
+          </a>
 
-          <div class="action-container large">
+          <a href="#"><div class="action-container large">
             <div class="deep-link-text">
               <h3>Естественные</h3>
               <p>Химия, химическая технология, математика.</p>
             </div>
-            <img src="img/link-arrow.svg" alt="arrow">
-          </div>
+              <img src="img/link-arrow.svg" alt="arrow">
+            </div>
+          </a>
       </div>
     </section>
+
+    <img src="img/research-flat.jpg" alt="research" style="
+    margin-right: auto;
+    max-width: 87%;
+    margin-left: auto;
+    display: block;
+">
 
     <section class="action-section">
       <h2>Экспертизы</h2>
@@ -74,15 +90,15 @@
         <li>&bull; Экспертиза в&nbsp;области противодействия коррупционным проявлениям</li>
         <ul class="hidden-ul">
           <li>&bull; Финансовая и&nbsp;экономическая экспертиза</li>
-          <li class="dropDown">&bull; Качество продукции, товаров и&nbsp;услуг</li>
-          <li class="dropDown">&bull; Консультирование органов власти</li>
-          <li class="dropDown">&bull; Правовая и&nbsp;судебная экспертиза</li>
-          <li class="dropDown">&bull; Защита и&nbsp;управление интеллектуальной и&nbsp;иными видами собственности</li>
-          <li class="dropDown">&bull; Рецензии на&nbsp;книги, учебные программы и&nbsp;другие образовательные материалы</li>
-          <li class="dropDown">&bull; Психолого-лингвистическая экспертиза</li>
-          <li class="dropDown">&bull; Юридическая экспертиза документов</li>
-          <li class="dropDown">&bull; Отзывы и&nbsp;экспертизы по&nbsp;диссертациям</li>
-          <li class="dropDown">&bull; Экспертиза образовательных программ</li>
+          <li>&bull; Качество продукции, товаров и&nbsp;услуг</li>
+          <li>&bull; Консультирование органов власти</li>
+          <li>&bull; Правовая и&nbsp;судебная экспертиза</li>
+          <li>&bull; Защита и&nbsp;управление интеллектуальной и&nbsp;иными видами собственности</li>
+          <li>&bull; Рецензии на&nbsp;книги, учебные программы и&nbsp;другие образовательные материалы</li>
+          <li>&bull; Психолого-лингвистическая экспертиза</li>
+          <li>&bull; Юридическая экспертиза документов</li>
+          <li>&bull; Отзывы и&nbsp;экспертизы по&nbsp;диссертациям</li>
+          <li>&bull; Экспертиза образовательных программ</li>
         </ul>
 
       </ul>
@@ -113,27 +129,45 @@
 
         <div class="action-container noaction">
           <img src="img/it.svg" alt="it">
-          <p>Цифровые услуги в&nbsp;IT-сфере</p>
+          <p>Цифровые услуги в IT-сфере</p>
         </div>
       </div>
     </section>
 
     <section class="action-section banner stats">
       <h2>Единый центр сервисов в&nbsp;цифрах</h2>
-      <div class="stats-container">
-        <div class="numbers">
-          <h3>>50</h3>
-          <p>проведенных экспертиз</p>
-        </div>
+      <div class="stats-flex">
+        <div class="stats-container">
+          <div class="numbers">
+            <h3>>50</h3>
+            <p>проведенных экспертиз</p>
+          </div>
 
-        <div class="numbers">
-          <h3>>170</h3>
-          <p>научно-исследовательских проектов ежегодно</p>
-        </div>
+          <div class="numbers">
+            <h3>>170</h3>
+            <p>научно-исследовательских проектов в год</p>
+          </div>
 
-        <div class="numbers">
-          <h3>>150</h3>
-          <p>внешних заказчиков ежегодно</p>
+          <div class="numbers">
+            <h3>>150</h3>
+            <p>внешних заказчиков ежегодно</p>
+          </div>
+        </div>
+        <div class="stats-container">
+          <div class="numbers">
+            <h3>20</h3>
+            <p>научных лабораторий</p>
+          </div>
+
+          <div class="numbers">
+            <h3>3</h3>
+            <p>научных центра на базе Университета</p>
+          </div>
+
+          <div class="numbers">
+            <h3>9</h3>
+            <p>научно-исследовательских институтов</p>
+          </div>
         </div>
       </div>
     </section>
@@ -154,7 +188,7 @@
       <h2>Контакты</h2>
       <div class="person">
         <div class="person-name">
-          <h3>Юрьева Ольга Валерьевна</h3>
+          <h3>Юрина Ольга Валерьевна</h3>
           <p>Начальник Управления организации научно-исследовательских работ</p>
         </div>
         <img src="img/olga.png" alt="olga.png">
@@ -178,22 +212,22 @@
       </div>
     </section>
 
-    <footer>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7f150e2bebeb9b6419079579f9c83d05f22cb1bbf3ef9a1a510f0a58972f599c&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+    <footer id="footer">
       <div class="white-logo">
         <img src="img/white-logo.png" alt="white-logo">
         <p>&copy;&nbsp;Единый центр сервисов ФГБОУ ВО&nbsp;&laquo;РЭУ им. Г.В. Плеханова&raquo;</p>
       </div>
-
-
+     
       <div class="links">
         <div class="footer-link">
-          <p>Исследования, Экспертиза, Консалтинг</p>
+          <p>Исследования, экспертиза, консалтинг</p>
           <a href="tel:+7 (495) 800-12-00">+7 (495) 800-12-00 (доб. 1941)</a>
           <a href="mailto: nauka@rea.ru">nauka@rea.ru</a>
         </div>
 
         <div class="footer-link">
-          <p>MBA, Повышение квалификации и Тренинги</p>
+          <p>MBA, ДПО и тренинги</p>
           <a href="tel:+7 (495) 152-85-82">+7 (495) 152-85-82 (доб. 1753)</a>
           <a href="mailto: crdpo@rea.ru">crdpo@rea.ru</a>
         </div>
@@ -206,9 +240,8 @@
       </div>
 
       <div class="bottom">
-        <p><a href="#">Официальный сайт Университета</a></p>
-        <p><a href="#">Политика конфиденциальности</a></p>
-        <p>All rights reserved</p>
+        <p><a href="https://www.rea.ru/" style="text-decoration: none;">Официальный сайт Университета</a></p>
+        <p><a href="https://do.rea.ru/politika-konfidentsialnosti" style="text-decoration: none;">Политика конфиденциальности</a></p>
       </div>
     </footer>
     <script src="script.js"></script>
