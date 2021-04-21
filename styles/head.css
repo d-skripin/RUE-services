@@ -42,8 +42,8 @@
   }
 
   nav li{
-    padding: 15px;
-    font-size: 17px;
+    padding: 15px 15px 15px 0px;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
   }
