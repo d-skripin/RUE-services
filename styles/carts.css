@@ -5,7 +5,6 @@
   }
   .carts h2{
     margin: 15px 0px;
-    color: black;
 
     font-size: 25px;
     font-weight: bold;
@@ -15,7 +14,6 @@
 
   .carts p{
     margin-bottom: 30px;
-    color: black;
 
     font-size: 17px;
     font-weight: normal;
@@ -60,8 +58,6 @@
   .carts p{
 
     font-size: 20px;
-    color: black;
-
   }
 
   .section-cart{
@@ -75,8 +71,6 @@
 
   .carts h2{
     font-size: 40px;
-    color: black;
-
   }
 
   .carts {
@@ -110,15 +104,11 @@
   .carts a{
     padding: 1%;
     width: 45%;
-    color: black;
-
   }
 
   .carts p{
 
     font-size: 25px;
-    color: black;
-
   }
 
 }
