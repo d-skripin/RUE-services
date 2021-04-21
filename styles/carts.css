@@ -60,6 +60,8 @@
   .carts p{
 
     font-size: 20px;
+    color: black;
+
   }
 
   .section-cart{
@@ -73,6 +75,8 @@
 
   .carts h2{
     font-size: 40px;
+    color: black;
+
   }
 
   .carts {
@@ -106,11 +110,15 @@
   .carts a{
     padding: 1%;
     width: 45%;
+    color: black;
+
   }
 
   .carts p{
 
     font-size: 25px;
+    color: black;
+
   }
 
 }
