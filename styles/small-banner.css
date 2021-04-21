@@ -73,15 +73,16 @@
 
 
   .banner-small-text{
-    margin: 0px 40px 60px 40px;
+    margin: 0px 0px 20px 70px;
   }
 
   .banner-small img{
-    width: 60px;
+    width: 20%;
   }
 
   .banner-small h3{
-    font-size: 50px;
+    font-size: 35px;
+    margin-bottom: 15px;
   }
 
   .banner-small p{
